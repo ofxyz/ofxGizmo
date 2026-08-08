@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGizmo\src\ofxGizmo.cpp">
+			<Filter>addons\ofxGizmo\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\GizmoTransformMove.cpp">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\GizmoTransformRender.cpp">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\GizmoTransformRotate.cpp">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\GizmoTransformScale.cpp">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\ZBaseMaths.cpp">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\ZMathsFunc.cpp">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{40C3E167--9FA-E-4B-96-8-6C9-01794C799C20}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGizmo">
+			<UniqueIdentifier>{9803621C--4B2-F-44-41-8-21C-F6A877BFDB57}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGizmo\src">
+			<UniqueIdentifier>{8153AE84--300-5-4E-53-B-E29-83C74070B9E9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGizmo\libs">
+			<UniqueIdentifier>{8BAB563E--00A-4-4C-32-A-ADC-395A1A86D1E0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGizmo\libs\LibGizmo">
+			<UniqueIdentifier>{1A7D762A--614-7-4B-1D-8-3D9-9EA193CE6558}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGizmo\src\ofxGizmo.h">
+			<Filter>addons\ofxGizmo\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\GizmoTransform.h">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\GizmoTransformMove.h">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\GizmoTransformRender.h">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\GizmoTransformRotate.h">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\GizmoTransformScale.h">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\IGizmo.h">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\LibBase.h">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\ZBaseDefs.h">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\ZBaseMaths.h">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\ZCollisionsUtils.h">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGizmo\libs\LibGizmo\ZMathsFunc.h">
+			<Filter>addons\ofxGizmo\libs\LibGizmo</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

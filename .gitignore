@@ -33,3 +33,18 @@ Release/
 
 
 *~.xml
+.vs/
+
+**/obj/
+
+dll/
+
+*.exe
+
+*.dll
+
+*.lib
+
+*.exp
+
+addons.lnk

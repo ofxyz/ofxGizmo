@@ -62,7 +62,7 @@ void ofApp::draw() {
     ofBackgroundGradient( ofColor(208,208,208), ofColor(255, 255, 255) );
     
     ofEnableDepthTest();
-    camera.begin();
+    //camera.begin();
     
     ofEnableLighting();
     light.enable();
@@ -74,9 +74,9 @@ void ofApp::draw() {
 
 	// gizmo draw() disables depth test and lighting //
     gizmo.draw( camera );
-    camera.end();
+    //camera.end();
     ofDisableDepthTest();
-    
+
     stringstream ss;
     ss << "Enable camera input (spacebar) " << endl;
     ss << "Enable Gizmo (e): " << gizmo.isVisible() << endl;
